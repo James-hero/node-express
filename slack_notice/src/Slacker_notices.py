@@ -4,7 +4,7 @@ from Slacker_notice_functions import *
 from datetime import datetime
 import urllib.request
 
-Token = 'xoxb-6408447014594-6407348963125-DfMu5C1bWtMQjeSNeB1Ak3AF' # 자신의 Token 입력
+Token = 'xoxb-6408447014594-6407348963125-AFnRXkgG4i6BlzCmEXe4QMca' # 자신의 Token 입력
 image_url, trend, today_value = KospiRead()
 today_date = datetime.today().strftime('%Y-%m-%d')
 image_name = '/workspaces/node-express/slack_notice/images/' + today_date + '_KOSPI.png' # 파일 경로, 이름 지정 : 날짜_KOSPI.png
