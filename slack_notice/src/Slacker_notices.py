@@ -3,6 +3,8 @@
 from Slacker_notice_functions import *
 from datetime import datetime
 import urllib.request
+import schedule
+import time
 
 Token = 'xoxb-6408447014594-6407348963125-AFnRXkgG4i6BlzCmEXe4QMca' # 자신의 Token 입력
 image_url, trend, today_value = KospiRead()
